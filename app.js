@@ -1,11 +1,9 @@
-
-/**
- * Module dependencies.
- */
+// Date:    8/4/13
+// Author:  Ray Joseph De Castro
+// Company: Advanced Upward Motion
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
   , http = require('http')
   , path = require('path');
 
@@ -28,7 +26,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+app.get('/tests', routes.tests);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

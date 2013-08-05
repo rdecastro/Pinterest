@@ -1,5 +1,11 @@
+// Date:    8/4/13
+// Author:  Ray Joseph De Castro
+// Company: Advanced Upward Motion
+
 extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  canvas(id='main-canvas', width=320, height=480)
+  script(src='javascripts/aum/pinterest.js')
+  script(src='javascripts/aum/main.js')
