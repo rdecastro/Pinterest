@@ -15,8 +15,9 @@ var aum = aum || {};
   };
 
   namespace.Pinterest.prototype.render = function () {
-    this.context.fillStyle = 'blue';
+    this.context.fillStyle = 'green';
     this.context.fillRect(0, 0, 320, 480);
+
     return true;
   };
 
