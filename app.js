@@ -28,6 +28,20 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/tests', routes.tests);
 
+app.get('/api', function (req, res) {
+
+  // TODO: Refactor and move this out of here later.
+  var mockJsonData = {
+    id: 0,
+    image_url: 'http://localhost:3000/images/image_1.jpg',
+    repin_image_url: 'http://localhost:3000/images/repin_1.png',
+    board_thumbnail_image_url: 'http://localhost:3000/images/board_thumbnail_1.jpg',
+    note: 'yes 0!'
+  };
+
+  res.json(mockJsonData);
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });

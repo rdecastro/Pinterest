@@ -23,19 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8826e74-bc77-4d81-8722-d9d6f62c0645" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/aum/tile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/specs/tileSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/pinterest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/aum/pinterest.js" afterPath="$PROJECT_DIR$/public/javascripts/aum/pinterest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tests.jade" afterPath="$PROJECT_DIR$/views/tests.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pinterest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375688729452" ignored="false" />
-    <file path="/index.jade" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375677048988" ignored="false" />
+    <file path="/Dummy.txt" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375693840382" ignored="false" />
+    <file path="/index.jade" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375694046516" ignored="false" />
     <file path="/layout.jade" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375667380013" ignored="false" />
     <file path="/a.js" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375673119881" ignored="false" />
     <file path="/a.coffee" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375664550492" ignored="false" />
@@ -47,7 +44,7 @@
     <file path="/index.js" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375672669034" ignored="false" />
     <file path="/pinteresttest.js" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375677093416" ignored="false" />
     <file path="/main.js" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375687274163" ignored="false" />
-    <file path="$PROJECT_DIR$/../PinterestCanvas/atlassian-ide-plugin.xml" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375693041503" ignored="false" />
+    <file path="$PROJECT_DIR$/../PinterestCanvas/atlassian-ide-plugin.xml" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375694127611" ignored="false" />
     <file path="/fragment.js2" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375671973025" ignored="false" />
     <file path="/a.jade" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375672396404" ignored="false" />
     <file path="/Tests.js" changelist="e8826e74-bc77-4d81-8722-d9d6f62c0645" time="1375673737193" ignored="false" />
@@ -94,7 +91,53 @@
     <favorites_list name="Pinterest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="1" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="3" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="43" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/tests.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="41" selection-start="255" selection-end="255" vertical-scroll-proportion="0.16052319">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -113,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/tests/pinteresttest.js" />
-        <option value="$PROJECT_DIR$/views/test.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/tests/mainTest.js" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/tests/pinterestTest.js" />
         <option value="$PROJECT_DIR$/test/pinterestTest.js" />
@@ -123,12 +164,14 @@
         <option value="$PROJECT_DIR$/public/javascripts/aum/specs/pinterestSpec.js" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/specs/mainSpec.js" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/main.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/tests.jade" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/specs/tileSpec.js" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/tile.js" />
         <option value="$PROJECT_DIR$/public/javascripts/aum/pinterest.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/pinterest.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
@@ -222,22 +265,8 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pinterest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pinterest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,32 +285,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="specs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pinterest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pinterest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,8 +324,8 @@
     <property name="NUnitJS_TestPath" value="" />
     <property name="NUnitJS_NUnitPath" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -442,7 +445,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1418" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -456,7 +459,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.105807476" sideWeight="0.6694915" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33050847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33050847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -546,21 +549,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="48" selection-end="95" vertical-scroll-proportion="0.06944445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/spec/SampleSpecs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="264" selection-end="264" vertical-scroll-proportion="0.19097222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jasmine-1.3.1/jasmine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/jasmine-standalone-1.3.1/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="7" selection-start="0" selection-end="1484" vertical-scroll-proportion="-31.875" />
@@ -571,11 +559,6 @@
         <state line="0" column="0" selection-start="0" selection-end="356" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="696" selection-end="696" vertical-scroll-proportion="0.47202796" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jasmineRunner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="0.48951048" />
@@ -583,11 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/specs/mainSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="88" selection-end="532" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="88" selection-end="532" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/aum/main.js">
@@ -596,13 +575,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tests.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="255" selection-end="255" vertical-scroll-proportion="0.16052319">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="219" selection-end="219" vertical-scroll-proportion="0.16052319">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="11" selection-start="362" selection-end="362" vertical-scroll-proportion="0.28537455">
@@ -642,19 +607,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/specs/tileSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.41022593">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="23" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.41022593" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/aum/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24970274">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="14" column="71" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24970274" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/pinterest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="2" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.7677165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="3" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tests.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="255" selection-end="255" vertical-scroll-proportion="0.16052319">
+          <folding />
         </state>
       </provider>
     </entry>
